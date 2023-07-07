@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@workers/tsconfig",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230628.0"
+  },
+  "main": "tsconfig.json"
+}
