@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "@workers/now",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "wrangler dev src/index.ts --local"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230628.0",
+    "@workers/tsconfig": "workspace:^"
+  }
+}
