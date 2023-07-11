@@ -3,7 +3,7 @@
   "name": "cfw",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "w": "wrangler"
   },
   "license": "MIT",
   "devDependencies": {
