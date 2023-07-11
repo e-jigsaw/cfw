@@ -2,9 +2,6 @@
   "private": true,
   "name": "cfw",
   "description": "",
-  "scripts": {
-    "w": "wrangler"
-  },
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.1.6",

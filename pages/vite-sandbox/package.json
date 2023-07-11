@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "@workers/vite-sandbox",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "w": "wrangler"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "vite": "^4.4.2",
+    "wrangler": "^3.1.2"
+  }
+}
