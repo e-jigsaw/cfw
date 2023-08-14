@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230710.1"
+    "@cloudflare/workers-types": "^4.20230807.0"
   },
   "main": "tsconfig.json"
 }
