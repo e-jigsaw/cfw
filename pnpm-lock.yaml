@@ -18,8 +18,8 @@ importers:
   libs/tsconfig:
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20230710.1
-        version: 4.20230710.1
+        specifier: ^4.20230914.0
+        version: 4.20230914.0
 
   pages/vite-sandbox:
     devDependencies:
@@ -36,8 +36,8 @@ importers:
   workers/hello-world:
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20230710.1
-        version: 4.20230710.1
+        specifier: ^4.20230914.0
+        version: 4.20230914.0
       '@workers/tsconfig':
         specifier: workspace:^
         version: link:../../libs/tsconfig
@@ -45,8 +45,8 @@ importers:
   workers/now:
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20230710.1
-        version: 4.20230710.1
+        specifier: ^4.20230914.0
+        version: 4.20230914.0
       '@workers/tsconfig':
         specifier: workspace:^
         version: link:../../libs/tsconfig
@@ -104,8 +104,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20230710.1:
-    resolution: {integrity: sha512-VqEY/ZqyHKBn6ivdePSWebpqojwbCXVEuwLkMYHs0UoOAqcGylkVcabdZYdQJKeNxXcOUZ9UBId/x9UsPUm2XQ==}
+  /@cloudflare/workers-types@4.20230914.0:
+    resolution: {integrity: sha512-OVeN4lFVu1O0PJGZ2d0FwpK8lelFcr33qYOgCh77ErEYmEBO4adwnIxcIsdQbFbhF0ffN6joiVcljD4zakdaeQ==}
     dev: true
 
   /@esbuild-plugins/node-globals-polyfill@0.1.1(esbuild@0.16.3):
