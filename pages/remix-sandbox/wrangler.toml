@@ -1,0 +1,13 @@
+name = "remix-sandbox"
+main = "./build/index.js"
+compatibility_date = "2023-04-20"
+workers_dev = true
+kv_namespaces = [
+  { binding = "remix_sandbox", id = "32b6063fac664f7a88409b55babbe1f8", preview_id = "08fede58a0644c41923a1a813f4ac0b9" }
+]
+
+[site]
+bucket = "./public"
+
+[build]
+command = "npm run build"

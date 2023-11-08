@@ -5,22 +5,28 @@
   "type": "module",
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev",
-    "typecheck": "tsc"
+    "dev": "remix dev --manual -c \"npm start\"",
+    "start": "wrangler dev ./build/index.js --live-reload",
+    "typecheck": "tsc",
+    "w": "wrangler"
   },
   "license": "MIT",
   "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.0",
+    "@remix-run/cloudflare": "^2.2.0",
+    "@remix-run/css-bundle": "^2.2.0",
     "@remix-run/node": "^2.2.0",
     "@remix-run/react": "^2.2.0",
-    "@remix-run/serve": "^2.2.0",
     "isbot": "^3.7.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230710.1",
     "@remix-run/dev": "^2.2.0",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "wrangler": "^3.15.0"
   }
 }
